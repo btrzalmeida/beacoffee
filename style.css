@@ -1,0 +1,267 @@
+/*Google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@600&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background:#1F1517;
+    color:#FFFF;
+}
+
+html {
+    font-family:Inter, sans-serif;
+    font-weight:500px;
+}
+
+a {
+    text-decoration:none;
+}
+
+ul {
+    list-style:none;
+}
+
+nav {
+    max-width:1120px;
+    margin:auto;
+    padding:1.5rem 10rem;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo {
+    font-family: Teko;
+    font-size:2rem;
+    font-weight:600;
+    text-transform:uppercase;
+}
+
+.navbar {
+    display:flex;
+    flex-direction:row;
+    gap:1.5rem;
+    color:#FFF2E780;
+}
+
+.github {
+    color:#FFF2E7;
+    font-weight:600;
+}
+
+main {
+    display:flex;
+    flex-direction:column;
+}
+
+.header-beacoffee {
+    background:#181012;
+}
+
+.hero {
+    max-width:1120px;
+    height:60vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    gap:6rem;
+    padding: 0rem 2rem;
+    margin:auto;
+    overflow:clip;
+}
+
+.hero-content {
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+
+.contrast {
+    font-family:Epilogue;
+    font-size:1rem;
+    font-weight:500;
+    text-transform:uppercase;
+}
+
+.brown {
+    color:#A45A49;
+}
+
+.yellow {
+    color:#E7A80E;
+}
+
+h1 {
+    font-family:Montserrat;
+    font-size:3.5rem;
+    font-weight:800;
+}
+
+hr {
+    border-color:#A45A49;
+    width:14.25rem;
+}
+
+.hero-subtitle {
+    font-family:Inter;
+    color:#C7BAB3;
+    font-size:1.5rem;
+    font-weight:400;
+
+}
+
+.hero-images-container {
+    max-width:45%;
+    column-count:4;
+    column-gap:1rem;
+    margin: -1rem;
+}
+
+.hero-images-container > figure > img {
+    width:100%;
+    border-radius:0.5rem;
+}
+
+.button-container {
+    width:100%;
+    max-width: 1120px;
+    margin:auto;
+}
+
+.button-container > button > img {
+    width:3rem;
+    border-radius:0.5rem;
+    margin:-1rem;
+}
+
+.coffee-recipe {
+    display:flex;
+    flex-direction:column;
+    max-width: 1120px;
+    padding:3rem 2rem;
+    margin:auto;
+}
+
+.header-recipe {
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+}
+
+.title-recipe {
+    font-family:Montserrat;
+    font-size:2rem;
+    font-weight:700;
+    color:#FFF2E7;
+}
+
+.subtitle-recipe {
+    color:#C7BAB3;
+    font-family:Inter;
+    font-size:1rem;
+    font-weight:400;
+}
+
+.card-container-recipe {
+    padding:0rem 2.5rem;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap:2rem;
+}
+
+.card-recipe {
+    background:#241A1C;
+    padding:2rem;
+    border-radius:0.5rem;
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+    flex-basis:29rem;
+    margin-top:2rem;
+}
+
+.card-header-recipe {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:end;
+}
+
+.card-header-details-recipe {
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+}
+
+.title-recipe {
+    color:#FFF2E7;
+    font-family:Montserrat;
+    font-size:1.5rem;
+    font-weight:700;
+}
+
+.evaluation-recipe {
+    color:#756A67;
+    font-family:Inter;
+    font-size:1rem;
+    font-weight:500;
+}
+
+.description-recipe {
+    color:#C7BAB3;
+    font-family:Inter;
+    font-size:1rem;
+    font-weight:400;
+}
+
+.author-recipe {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:0.5rem;
+}
+
+.author-recipe > img {
+    border-radius:20rem;
+    width:1.5rem;
+}
+
+.author-name-recipe {
+    color:#C7BAB3;
+    font-family:Inter;
+    font-size:1rem;
+    font-weight:600;
+}
+
+.loading {
+    font-family:Inter;
+    font-size:1rem;
+    font-weight:500;
+    color:#C7BAB3;
+    text-align:center;
+    margin-bottom:2rem;
+}
+
+footer {
+    padding:4rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:0.5rem;
+    background-color:#23181A;
+}
+
+.footer-copy {
+    color:#FFF2E7;
+    font-family:Inter;
+    font-size:1rem;
+    font-weight:500;
+}
